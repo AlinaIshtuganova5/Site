@@ -51,7 +51,7 @@
         <% for (Book book : bookList.getRecords(pageid, total)) {
         %>
         <div class="productsForUser">
-            <form action="/edit" method="post">
+            <form action="/views/edit.jsp">
                 <input type="hidden" name="product_id" value="<%=book.getId()%>">
                 <div class="img">
                     <center><input type="hidden" name="image" value="<%=book.getImage()%>"><img

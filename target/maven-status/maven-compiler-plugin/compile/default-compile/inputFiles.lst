@@ -1,0 +1,15 @@
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\ProfileServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\utils\Database.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\models\Book.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\repositories\BookRepository.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\LogoutServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\RegistrationServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\models\Cart.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\DeleteProduct.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\LoginServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\SumServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\AddProduct.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\EditServlet.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\DeleteFromCart.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\AddComment.java
+C:\Users\Алина\Desktop\Shop1\src\main\java\ru\kpfu\itis\Alina\servlets\AddToCart.java

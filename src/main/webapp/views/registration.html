@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script type="text/javascript">
+        function valid() {
+            var name = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password1 = document.getElementById('password1').value;
+            var password2 = document.getElementById('password2').value;
+            var adr_pattern = /[0-9a-z_]+@[0-9a-z_]+\.[a-z]{2,5}/i;
+            if (name == "" || name == " ") {
+                alert("Введите имя");
+                return false;
+            }
+            else if (adr_pattern.test(email) == false) {
+                alert("Проверьте правильность ввода email");
+                return false;
+            } else if (password1 == "") {
+                alert("Введите пароль");
+                return false;
+            }
+            else if (password1 != password2) {
+                alert("Пароли не совпадают");
+                return false;
+            }
+            else
+                return true;
+        }
+    </script>
+</head>
+<div id="wrapper">
+    <div class="panel-top">
+        <div class="center clearfix">
+            <div class="login">
+                <a href="/login">Вход</a>
+                <span>/</span>
+                <a href="/register">Регистрация</a>
+            </div>
+        </div>
+    </div>
+    <div id="header" class="center clearfix">
+    </div>
+    <div id="home">
+        <div class="home-bg">
+            <div class="center">
+                <a href='/views/books.jsp?page=1' class='link-home'></a>
+                <h2 class="title-home">КНИГИ.РУ</h2>
+            </div>
+        </div>
+    </div>
+    <div class="middle clearfix center">
+        <div class="content">
+            <div class="registr">
+                <form action="/register" method="post" name="test" id="form" onsubmit="return valid()">
+                    <div class="header"><br/><br/><br/><h4>РЕГИСТРАЦИЯ</h4></div>
+                    <div class="main">
+                        <br/> <br/><br/>
+                        <p>ИМЯ:</p><br/><input type="text" class="input-class" name="username" placeholder="Имя"
+                                               id="username"><br/><br/>
+                        <p>АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ:</p><br/><input type="text" class="input-class" name="email"
+                                                                   placeholder="Email" id="email" onblur="checkLogin(this.value)"><br/><br/>
+                        <p>ПАРОЛЬ:</p><br/><input type="password" class="input-class" name="password1"
+                                                  placeholder="Пароль"
+                                                  id="password1"><br/><br/>
+                        <p>ПОВТОРИТЕ ПАРОЛЬ:</p><br/><input type="password" class="input-class" name="password2"
+                                                            placeholder="Повторите пароль"
+                                                            id="password2"><br/><br/><br/>
+                        <input type="submit" class="submit-class" name="submit" value="РЕГИСТРАЦИЯ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="center clearfix">
+        <div class="f-about">
+            <h5 class="f-title">Контакты</h5>
+            <p>Книжный интернет-магазин "Книги.ру"
+                Электронная почта: shop@knigi.ru</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

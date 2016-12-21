@@ -1,0 +1,15 @@
+ru\kpfu\itis\Alina\servlets\AddProduct.class
+ru\kpfu\itis\Alina\utils\Database.class
+ru\kpfu\itis\Alina\repositories\BookRepository.class
+ru\kpfu\itis\Alina\models\Cart.class
+ru\kpfu\itis\Alina\servlets\DeleteFromCart.class
+ru\kpfu\itis\Alina\servlets\EditServlet.class
+ru\kpfu\itis\Alina\servlets\AddComment.class
+ru\kpfu\itis\Alina\servlets\LogoutServlet.class
+ru\kpfu\itis\Alina\servlets\DeleteProduct.class
+ru\kpfu\itis\Alina\servlets\ProfileServlet.class
+ru\kpfu\itis\Alina\servlets\AddToCart.class
+ru\kpfu\itis\Alina\servlets\SumServlet.class
+ru\kpfu\itis\Alina\models\Book.class
+ru\kpfu\itis\Alina\servlets\RegistrationServlet.class
+ru\kpfu\itis\Alina\servlets\LoginServlet.class

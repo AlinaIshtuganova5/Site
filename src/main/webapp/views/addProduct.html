@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление продукта</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+<div id="wrapper">
+    <div class="panel-top">
+        <div class="center clearfix">
+        </div>
+    </div>
+    <div id="header" class="center clearfix">
+    </div>
+    <div id="home">
+        <div class="home-bg">
+            <div class="center">
+                <a href="/views/productsForAdmin.jsp?page=1" class="link-home"></a>
+                <h2 class="title-home">КНИГИ.РУ</h2>
+            </div>
+        </div>
+    </div>
+    <div class="middle clearfix center">
+        <div class="sidebar"></div>
+        <div class="content">
+            <div class="add-product">
+                <form action="/addProduct" method="post">
+                    <div class="main">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <p>НАЗВАНИЕ:</p>
+                        <br>
+                        <input type="text" class="input-class" name="product_name">
+                        <br>
+                        <br>
+                        <p>ЦЕНА:</p>
+                        <br>
+                        <input type="text" class="input-class" name="price">
+                        <br>
+                        <br>
+                        <p>АВТОР:</p>
+                        <br>
+                        <input type="text" class="input-class" name="author">
+                        <br>
+                        <br>
+                        <p>КОЛИЧЕСТВО СТРАНИЦ:</p>
+                        <br>
+                        <input type="text" name="pages" class="input-class">
+                        <br>
+                        <br>
+                        <p>ГОД ВЫПУСКА:</p>
+                        <br>
+                        <input type="text" name="year" class="input-class">
+                        <br>
+                        <br>
+                        <p>ISBN:</p>
+                        <br>
+                        <input type="text" name="isbn" class="input-class">
+                        <br>
+                        <br>
+                        <p>ТИРАЖ:</p>
+                        <br>
+                        <input type="text" name="edition" class="input-class">
+                        <br>
+                        <br>
+                        <p>ИЗДАТЕЛЬСТВО:</p>
+                        <br>
+                        <input type="text" name="publisher" class="input-class">
+                        <br>
+                        <br>
+                        <p>ЯЗЫК ИЗДАНИЯ:</p>
+                        <br>
+                        <input type="text" name="language" class="input-class">
+                        <br>
+                        <br>
+                        <p>ВЕС В УПАКОВКЕ, Г:</p>
+                        <br>
+                        <input type="text" name="weight" class="input-class">
+                        <br>
+                        <br>
+                        <p>ИЗОБРАЖЕНИЕ:</p>
+                        <br>
+                        <input type="text" class="input-class" name="image">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <input type="submit" class="submit-class-login" value="ДОБАВИТЬ">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <a href="#home-link" class="home-link">&nbsp;</a>
+    <div class="center clearfix">
+        <div class="f-about">
+            <h5 class="f-title">Контакты</h5>
+            <p>Книжный интернет-магазин "Книги.ру"
+                Электронная почта: shop@knigi.ru</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
